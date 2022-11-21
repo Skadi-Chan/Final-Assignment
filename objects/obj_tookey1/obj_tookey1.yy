@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_reticle",
+  "name": "obj_tookey1",
   "spriteId": {
-    "name": "spr_reticle",
-    "path": "sprites/spr_reticle/spr_reticle.yy",
+    "name": "spr_tookey",
+    "path": "sprites/spr_tookey/spr_tookey.yy",
   },
   "solid": false,
   "visible": true,

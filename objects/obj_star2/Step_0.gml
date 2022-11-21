@@ -14,12 +14,4 @@ if( y > room_height){
 	y = room_height;
 }
 
-if(position_meeting(mouse_x, mouse_y, id )){
-	show_debug_message("Over Star" + string(id));
-	
-	if(mouse_check_button(mb_left)){
-	with (instance_position(mouse_x,mouse_y,obj_star2)){
-		instance_destroy();
-	}
-	}
-}
+
