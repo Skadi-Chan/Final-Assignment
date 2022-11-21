@@ -3,7 +3,7 @@
 
 walkingspeed = 2
 
-collisionSpeed = walkingspeed+3
+collisionSpeed = walkingspeed 
 
 global.key = false
 

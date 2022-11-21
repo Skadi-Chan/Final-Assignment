@@ -5,25 +5,25 @@
 if (keyboard_check(ord("W")) and place_free(x, y - collisionSpeed)){
 	y -= walkingspeed;
 	image_speed = walkingspeed / 6;
-	sprite_index = spr_PlayerWalkUP;
+	sprite_index = spr_player_move_up;
 }
 
 if (keyboard_check(ord("A")) and place_free(x- collisionSpeed, y )){
 	x -= walkingspeed;
 	image_speed = walkingspeed / 6;
-	sprite_index = spr_PlayerWalkLeft;
+	sprite_index = spr_player_move_left;
 }
 
 if (keyboard_check(ord("S")) and place_free(x, y + collisionSpeed)){
 	y += walkingspeed;
 	image_speed = walkingspeed / 6
-	sprite_index = spr_PlayerWalkDown;
+	sprite_index = spr_player_move_down;
 }
 
 if (keyboard_check(ord("D")) and place_free(x + collisionSpeed, y )){
 	x += walkingspeed;
 	image_speed = walkingspeed / 6;
-	sprite_index = spr_PlayerWalkRight;
+	sprite_index = spr_player_move_right;
 }
 
 //make the player stand still when no keys' pressed
