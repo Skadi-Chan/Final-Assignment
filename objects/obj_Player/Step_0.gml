@@ -4,25 +4,25 @@
 //the WASD moving control and checking if there's enough space to move
 if (keyboard_check(ord("W")) and place_free(x, y - collisionSpeed)){
 	y -= walkingspeed;
-	image_speed = walkingspeed / 6;
+	image_speed = walkingspeed / img_speed_divider
 	sprite_index = spr_player_move_up;
 }
 
 if (keyboard_check(ord("A")) and place_free(x- collisionSpeed, y )){
 	x -= walkingspeed;
-	image_speed = walkingspeed / 6;
+	image_speed = walkingspeed / img_speed_divider
 	sprite_index = spr_player_move_left;
 }
 
 if (keyboard_check(ord("S")) and place_free(x, y + collisionSpeed)){
 	y += walkingspeed;
-	image_speed = walkingspeed / 6
+	image_speed = walkingspeed / img_speed_divider
 	sprite_index = spr_player_move_down;
 }
 
 if (keyboard_check(ord("D")) and place_free(x + collisionSpeed, y )){
 	x += walkingspeed;
-	image_speed = walkingspeed / 6;
+	image_speed = walkingspeed / img_speed_divider
 	sprite_index = spr_player_move_right;
 }
 
