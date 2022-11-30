@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_star",
   "spriteId": {
-    "name": "spr_star_1",
-    "path": "sprites/spr_star_1/spr_star_1.yy",
+    "name": "spr_tombstone",
+    "path": "sprites/spr_tombstone/spr_tombstone.yy",
   },
   "solid": false,
   "visible": true,

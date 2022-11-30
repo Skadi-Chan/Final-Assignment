@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_dingzhen",
   "spriteId": {
-    "name": "spr_dingzhen",
-    "path": "sprites/spr_dingzhen/spr_dingzhen.yy",
+    "name": "spr_npc4",
+    "path": "sprites/spr_npc4/spr_npc4.yy",
   },
   "solid": true,
   "visible": true,
