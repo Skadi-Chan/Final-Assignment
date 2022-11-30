@@ -1,0 +1,1 @@
+targetroom = mini_game2_Screen

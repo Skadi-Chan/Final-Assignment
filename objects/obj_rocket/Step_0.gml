@@ -6,19 +6,19 @@ vspeed *= 0;
 hspeed *= 0;
 
 //set the control for the rocket
-if(keyboard_check(key_up)){
+if(keyboard_check(vk_up)){
 	vspeed -= wasd_speed;
 }
 
-if(keyboard_check(key_down)){
+if(keyboard_check(vk_down)){
 	vspeed += wasd_speed;
 }
 
-if(keyboard_check(key_right)){
+if(keyboard_check(vk_right)){
 	hspeed += wasd_speed;
 }
 
-if(keyboard_check(key_left)){
+if(keyboard_check(vk_left)){
 	hspeed -= wasd_speed;
 }
 
@@ -27,9 +27,10 @@ if(keyboard_check(key_left)){
 //make the rocket stay in bound and end the game when it reaches the top
 if( y > room_height){
 	y = room_height;
-}else if(y < 0){
-	room_goto(rm_shoting_screen);
 }
+//}else if(y < 0){
+//	room_goto(rm_shoting_screen);
+//}
 
 if( x > room_width){
 	x = room_width/2;
@@ -40,6 +41,10 @@ if( x < 0){
 }
 
 //the collision in code 
-if position_meeting(x,y,obj_star){
+if position_meeting(x,y,obj_book){
+	y = room_height;
+}
+
+if position_meeting(x,y,obj_tombstone){
 	y = room_height;
 }
