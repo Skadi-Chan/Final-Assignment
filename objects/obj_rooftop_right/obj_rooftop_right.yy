@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_rooftop_right",
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_rooftop_right",
+    "path": "sprites/spr_rooftop_right/spr_rooftop_right.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
