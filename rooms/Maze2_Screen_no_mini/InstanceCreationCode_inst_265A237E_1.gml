@@ -1,1 +1,1 @@
-targetroom = Maze2_Screen_no_mini
+returnroom = Maze2_Screen_no_mini

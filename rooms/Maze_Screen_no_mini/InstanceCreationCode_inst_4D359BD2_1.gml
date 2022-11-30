@@ -1,1 +1,1 @@
-targetroom = Maze_Screen_no_mini
+returnroom = Maze_Screen_no_mini
