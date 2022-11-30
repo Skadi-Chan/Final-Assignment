@@ -163,6 +163,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"Starting_Screen","path":"rooms/Starting_Screen/Starting_Screen.yy",},},
     {"roomId":{"name":"mini_game2_story","path":"rooms/mini_game2_story/mini_game2_story.yy",},},
     {"roomId":{"name":"Maze_Screen","path":"rooms/Maze_Screen/Maze_Screen.yy",},},
     {"roomId":{"name":"mini_game2_Screen","path":"rooms/mini_game2_Screen/mini_game2_Screen.yy",},},
@@ -170,7 +171,6 @@
     {"roomId":{"name":"mini_game1_story","path":"rooms/mini_game1_story/mini_game1_story.yy",},},
     {"roomId":{"name":"Maze2_Screen","path":"rooms/Maze2_Screen/Maze2_Screen.yy",},},
     {"roomId":{"name":"mini_game1_Screen","path":"rooms/mini_game1_Screen/mini_game1_Screen.yy",},},
-    {"roomId":{"name":"Starting_Screen","path":"rooms/Starting_Screen/Starting_Screen.yy",},},
     {"roomId":{"name":"horse_Screen","path":"rooms/horse_Screen/horse_Screen.yy",},},
     {"roomId":{"name":"test","path":"rooms/test/test.yy",},},
     {"roomId":{"name":"Ending_Screen","path":"rooms/Ending_Screen/Ending_Screen.yy",},},

@@ -1,1 +1,1 @@
-targetroom = Maze2_Screen
+targetroom = Maze_Screen
