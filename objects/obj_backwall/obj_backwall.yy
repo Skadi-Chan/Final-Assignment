@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_backwall",
   "spriteId": {
-    "name": "spr_backwall",
-    "path": "sprites/spr_backwall/spr_backwall.yy",
+    "name": "spr_room_wall",
+    "path": "sprites/spr_room_wall/spr_room_wall.yy",
   },
   "solid": true,
   "visible": true,

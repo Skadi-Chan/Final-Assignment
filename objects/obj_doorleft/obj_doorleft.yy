@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_doorleft",
   "spriteId": {
-    "name": "spr_doorleft",
-    "path": "sprites/spr_doorleft/spr_doorleft.yy",
+    "name": "spr_wall_with_window",
+    "path": "sprites/spr_wall_with_window/spr_wall_with_window.yy",
   },
   "solid": true,
   "visible": true,

@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_leftwall",
   "spriteId": {
-    "name": "spr_leftwall",
-    "path": "sprites/spr_leftwall/spr_leftwall.yy",
+    "name": "spr_side_wall",
+    "path": "sprites/spr_side_wall/spr_side_wall.yy",
   },
   "solid": true,
   "visible": true,

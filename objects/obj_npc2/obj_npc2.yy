@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_npc2",
   "spriteId": {
-    "name": "spr_npc2",
-    "path": "sprites/spr_npc2/spr_npc2.yy",
+    "name": "spr_npc5",
+    "path": "sprites/spr_npc5/spr_npc5.yy",
   },
   "solid": true,
   "visible": true,
