@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_crystal",
+  "name": "obj_path3",
   "spriteId": {
-    "name": "spr_crystal",
-    "path": "sprites/spr_crystal/spr_crystal.yy",
+    "name": "spr_path3",
+    "path": "sprites/spr_path3/spr_path3.yy",
   },
   "solid": false,
   "visible": true,
@@ -26,11 +26,12 @@
   "physicsShapePoints": [],
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Elements",
-    "path": "folders/Objects/Elements.yy",
+    "name": "Environment",
+    "path": "folders/Objects/Environment.yy",
   },
 }
