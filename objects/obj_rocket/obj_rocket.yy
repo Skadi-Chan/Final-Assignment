@@ -3,10 +3,10 @@
   "resourceVersion": "1.0",
   "name": "obj_rocket",
   "spriteId": {
-    "name": "spr_rocket_1",
-    "path": "sprites/spr_rocket_1/spr_rocket_1.yy",
+    "name": "spr_rocket",
+    "path": "sprites/spr_rocket/spr_rocket.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,

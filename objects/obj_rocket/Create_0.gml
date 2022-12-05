@@ -4,3 +4,4 @@
 //set the move speed
 wasd_speed = 10
 
+img_speed_divider = 8

@@ -8,18 +8,32 @@ hspeed *= 0;
 //set the control for the rocket
 if(keyboard_check(vk_up)){
 	vspeed -= wasd_speed;
+	image_speed = wasd_speed / img_speed_divider
+	sprite_index = spr_rocket;
 }
 
 if(keyboard_check(vk_down)){
 	vspeed += wasd_speed;
+	image_speed = wasd_speed / img_speed_divider
+	sprite_index = spr_rocket;
 }
 
 if(keyboard_check(vk_right)){
 	hspeed += wasd_speed;
+	image_speed = wasd_speed / img_speed_divider
+	sprite_index = spr_rocket;
 }
 
 if(keyboard_check(vk_left)){
 	hspeed -= wasd_speed;
+	image_speed = wasd_speed / img_speed_divider
+	sprite_index = spr_rocket;
+}
+
+if keyboard_check(vk_nokey){
+	image_speed = 0;
+	wasd_speed = 3.5;
+	image_index = 0;
 }
 
 
