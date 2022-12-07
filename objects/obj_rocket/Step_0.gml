@@ -55,10 +55,10 @@ if( x < 0){
 }
 
 //the collision in code 
-if position_meeting(x,y,obj_book){
+if place_meeting(x,y,obj_book){
 	y = room_height;
 }
 
-if position_meeting(x,y,obj_tombstone){
+if place_meeting(x,y,obj_tombstone){
 	y = room_height;
 }

@@ -6,7 +6,7 @@
     "name": "spr_tombstone",
     "path": "sprites/spr_tombstone/spr_tombstone.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
