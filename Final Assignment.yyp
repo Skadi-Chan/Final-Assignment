@@ -55,6 +55,7 @@
     {"id":{"name":"spr_relx5","path":"sprites/spr_relx5/spr_relx5.yy",},"order":3,},
     {"id":{"name":"spr_npc4","path":"sprites/spr_npc4/spr_npc4.yy",},"order":1,},
     {"id":{"name":"spr_npc8","path":"sprites/spr_npc8/spr_npc8.yy",},"order":5,},
+    {"id":{"name":"snd_box","path":"sounds/snd_box/snd_box.yy",},"order":9,},
     {"id":{"name":"spr_side_wall","path":"sprites/spr_side_wall/spr_side_wall.yy",},"order":8,},
     {"id":{"name":"obj_dingzhen","path":"objects/obj_dingzhen/obj_dingzhen.yy",},"order":0,},
     {"id":{"name":"spr_zhenzhu","path":"sprites/spr_zhenzhu/spr_zhenzhu.yy",},"order":21,},
@@ -201,9 +202,9 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"Maze_Screen","path":"rooms/Maze_Screen/Maze_Screen.yy",},},
     {"roomId":{"name":"mini_game2_Screen","path":"rooms/mini_game2_Screen/mini_game2_Screen.yy",},},
     {"roomId":{"name":"Starting_Screen","path":"rooms/Starting_Screen/Starting_Screen.yy",},},
-    {"roomId":{"name":"Maze_Screen","path":"rooms/Maze_Screen/Maze_Screen.yy",},},
     {"roomId":{"name":"Maze2_Screen_no_mini","path":"rooms/Maze2_Screen_no_mini/Maze2_Screen_no_mini.yy",},},
     {"roomId":{"name":"Game_Screen","path":"rooms/Game_Screen/Game_Screen.yy",},},
     {"roomId":{"name":"mini_game2_story","path":"rooms/mini_game2_story/mini_game2_story.yy",},},
@@ -250,10 +251,10 @@
     {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
   ],
   "TextureGroups": [
-    {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","isScaled":true,"compressFormat":"bz2","loadType":"default","directory":"","autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,},
+    {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","isScaled":true,"compressFormat":"bz2","autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,},
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.11.0.54",
+    "IDEVersion": "2022.8.1.37",
   },
 }
