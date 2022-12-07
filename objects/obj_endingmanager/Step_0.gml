@@ -7,6 +7,10 @@ global.horse = true
 
 global.key = true
 
+global.talkwithmama = true
+
+
+
 if keyboard_check_pressed(ord("M")){
 	if global.music = true{
 	audio_stop_sound(snd_bgm)

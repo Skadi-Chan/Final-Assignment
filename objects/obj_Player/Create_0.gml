@@ -11,6 +11,10 @@ global.key = false
 
 text = noone
 
-global.chicken = false
+global.talkwithmama = false
 
 global.horse = false
+
+global.born = false
+
+global.chicken = true

@@ -1,3 +1,0 @@
-targetroom = Maze_Screen
-
-

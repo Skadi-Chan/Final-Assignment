@@ -6,7 +6,7 @@
     "name": "spr_dark_rock",
     "path": "sprites/spr_dark_rock/spr_dark_rock.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
