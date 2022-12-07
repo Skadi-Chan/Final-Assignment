@@ -15,7 +15,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "snd_talk.mp3",
-  "duration": 0.261224,
+  "duration": 1.104,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

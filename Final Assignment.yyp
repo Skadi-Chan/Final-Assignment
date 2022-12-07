@@ -37,6 +37,7 @@
     {"id":{"name":"spr_npc2","path":"sprites/spr_npc2/spr_npc2.yy",},"order":15,},
     {"id":{"name":"spr_player_move_left","path":"sprites/spr_player_move_left/spr_player_move_left.yy",},"order":3,},
     {"id":{"name":"obj_return","path":"objects/obj_return/obj_return.yy",},"order":4,},
+    {"id":{"name":"snd_ship","path":"sounds/snd_ship/snd_ship.yy",},"order":10,},
     {"id":{"name":"obj_path3","path":"objects/obj_path3/obj_path3.yy",},"order":13,},
     {"id":{"name":"spr_game","path":"sprites/spr_game/spr_game.yy",},"order":5,},
     {"id":{"name":"spr_wall_with_window","path":"sprites/spr_wall_with_window/spr_wall_with_window.yy",},"order":9,},
