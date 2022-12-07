@@ -8,4 +8,4 @@ img_speed_divider = 8
 
 rocket_life = 300
 
-alarm[0] = 10* room_speed
+alarm[0] = 30* room_speed
