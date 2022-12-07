@@ -46,131 +46,16 @@ if keyboard_check(vk_nokey){
 depth =-y
 
 //check if the player is close to lucy
-if collision_circle(x,y, 50,obj_lucy, false, false){
-	
-	if  keyboard_check_pressed(vk_space){ 
-		instance_destroy(obj_lucy_without_keyandmama)
-		instance_destroy(obj_lucy_without_onlykey)
-		instance_destroy(obj_lucy_with_everything)
-		
-		
-		if global.key = false and global.talkwithmama = false{
-			instance_create_depth(x-340, y-240, -4000, obj_lucy_without_keyandmama)
-			audio_play_sound(snd_talk,1,0)
-		}
-		
-		else if global.key = false and global.talkwithmama = true{
-			instance_create_depth(x-340, y-240, -4000, obj_lucy_without_onlykey)
-			audio_play_sound(snd_talk,1,0)
-		}
-		else if global.key = true and global.talkwithmama = true{
-			instance_create_depth(x-340, y-240, -4000, obj_lucy_with_everything)
-			audio_play_sound(snd_talk,1,0)
-		}
-	}
-}else{
-		instance_destroy(obj_lucy_without_keyandmama)
-		instance_destroy(obj_lucy_without_onlykey)
-		instance_destroy(obj_lucy_with_everything)
-}
-
-//talk with Kunkun
-if collision_circle(x,y, 50,obj_kunkun, false, false){
-	
-	if  keyboard_check_pressed(vk_space){ 
-		instance_destroy(obj_kun_talking_with_chicken)
-		instance_destroy(obj_kun_talking_without_chicken)
-		
-		if global.chicken = false{
-			instance_create_depth(x-340, y-240, -4000, obj_kun_talking_without_chicken)
-			audio_play_sound(snd_talk,1,0)
-		}
-		
-		else if global.chicken = true{
-			instance_create_depth(x-340, y-240, -4000, obj_kun_talking_with_chicken)
-			audio_play_sound(snd_talk,1,0)
-		}
-		
-		}
-}else{
-	instance_destroy(obj_kun_talking_with_chicken)
-	instance_destroy(obj_kun_talking_without_chicken)
-}
-
-//talking with mama
-if collision_circle(x,y, 70,obj_mama, false, false){
-	
-	if  keyboard_check_pressed(vk_space){ 
-		instance_destroy(obj_mama_without_keyandtalk)
-		instance_destroy(obj_mama_without_onlykey)
-		instance_destroy(obj_mama_with_everything)
-		
-		if global.key = false and global.talkwithmama = false{
-			instance_create_depth(x-340, y-240, -4000, obj_mama_without_keyandtalk)
-			audio_play_sound(snd_talk,1,0)
-			global.talkwithmama = true
-		}
-		
-		else if global.key = false and global.talkwithmama = true{
-			instance_create_depth(x-340, y-240, -4000, obj_mama_without_onlykey)
-			audio_play_sound(snd_talk,1,0)
-		}
-		
-		else if global.key = true and global.talkwithmama = true{
-			instance_create_depth(x-340, y-240, -5000, obj_mama_with_everything)
-			audio_play_sound(snd_talk,1,0)
-		}
-		
-		}
-}else{
-		instance_destroy(obj_mama_without_keyandtalk)
-		instance_destroy(obj_mama_without_onlykey)
-		instance_destroy(obj_mama_with_everything)
-}
 
 
-
-//talking to NPC2 at the starting page
-if collision_circle(x,y, 80,obj_startingNPC2, false, false){
-	if keyboard_check_pressed(vk_space){
-		instance_destroy(obj_gamescreenNPC2)
-		instance_create_depth(x-340, y-240, -4000, obj_gamescreenNPC2)
-		audio_play_sound(snd_talk,1,0)
-	}
-}else{
-		instance_destroy(obj_gamescreenNPC2)
-}
-
-//talking to NPC2 at the ending page
-if collision_circle(x,y, 80,obj_npc2, false, false){
-	if keyboard_check_pressed(vk_space){
-		instance_destroy(obj_text3)
-		instance_create_depth(x, y-150, -4000, obj_text3)
-		audio_play_sound(snd_talk,1,0)
-	}
-}else{
-		instance_destroy(obj_text3)
-}
-
-
-if place_meeting(x,y, obj_key){
-	instance_destroy(obj_key)
-	global.key = true
-	audio_play_sound(snd_key, 1, 0);
-}
-
-
-if place_meeting(x,y,obj_door) and global.key = true{
+if place_meeting(x,y,obj_door) and key = true{
 	instance_destroy(obj_door)
+	instance_destroy(obj_roof)
 	audio_play_sound(snd_door,1,0)
 }
 
 
-if place_meeting(x,y, obj_chicken){
-	instance_destroy(obj_chicken)
-	global.chicken = true
-	audio_play_sound(snd_key, 1, 0);
-}
+
 
 // meeting zhenzhu
 if collision_circle(x,y, 50,obj_zhenzhu, false, false){

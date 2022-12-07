@@ -6,3 +6,4 @@
 var targetroom
 
 
+ global.horse = true

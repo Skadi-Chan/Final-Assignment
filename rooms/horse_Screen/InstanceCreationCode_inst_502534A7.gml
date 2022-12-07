@@ -1,1 +1,1 @@
-targetroom = Ending_Screen
+targetroom = Game_Screen

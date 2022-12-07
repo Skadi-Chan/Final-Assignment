@@ -1,1 +1,1 @@
-targetroom = horse_Screen
+targetroom = Ending_Screen

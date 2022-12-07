@@ -131,26 +131,6 @@ if collision_circle(x,y, 70,obj_mama, false, false){
 
 
 //talking to NPC2 at the starting page
-if collision_circle(x,y, 80,obj_startingNPC2, false, false){
-	if keyboard_check_pressed(vk_space){
-		instance_destroy(obj_gamescreenNPC2)
-		instance_create_depth(x-340, y-240, -4000, obj_gamescreenNPC2)
-		audio_play_sound(snd_talk,1,0)
-	}
-}else{
-		instance_destroy(obj_gamescreenNPC2)
-}
-
-//talking to NPC2 at the ending page
-if collision_circle(x,y, 80,obj_npc2, false, false){
-	if keyboard_check_pressed(vk_space){
-		instance_destroy(obj_text3)
-		instance_create_depth(x, y-150, -4000, obj_text3)
-		audio_play_sound(snd_talk,1,0)
-	}
-}else{
-		instance_destroy(obj_text3)
-}
 
 
 if place_meeting(x,y, obj_key){
@@ -160,8 +140,9 @@ if place_meeting(x,y, obj_key){
 }
 
 
-if place_meeting(x,y,obj_door) and global.key = true{
-	instance_destroy(obj_door)
+if place_meeting(x,y,obj_roof) and global.key = true{
+	
+	instance_destroy(obj_roof)
 	audio_play_sound(snd_door,1,0)
 }
 
@@ -183,9 +164,48 @@ if collision_circle(x,y, 50,obj_zhenzhu, false, false){
 		instance_destroy(obj_meetingzhenzhu)
 		audio_play_sound(snd_horse, 1, 0)
 		global.horse = true	
+		room_goto(Last_screen)
 	}
 }else{ 
 		instance_destroy(obj_meetingzhenzhu)
  
 }
 
+
+if collision_circle(x,y, 70,obj_npc2, false, false){
+	
+	if  keyboard_check_pressed(vk_space){ 
+		instance_destroy(obj_npc2_talk1)
+		instance_destroy(obj_npc2_talk2)
+		instance_destroy(obj_npc2_talk3)
+		
+		if talked1 = false and talked2 = false and talked3=false{
+			instance_create_depth(x-340, y-240, -4000, obj_npc2_talk1)
+			audio_play_sound(snd_talk,1,0)
+			talked1 = true
+			
+		}
+		
+		else if talked1 = true and talked2 = false and talked3 = false{
+			instance_create_depth(x-340, y-240, -4000, obj_npc2_talk2)
+			audio_play_sound(snd_talk,1,0)
+			talked2 = true
+		}
+		
+		else if talked1 = true and talked2 = true and talked3 = false{
+			instance_create_depth(x-340, y-240, -5000, obj_npc2_talk3)
+			audio_play_sound(snd_talk,1,0)
+			talked3 = true
+		}
+		else if talked1 = true and talked2 = true and talked3 = true{
+			
+			audio_play_sound(snd_portal,1,0)
+			room_goto(horse_Screen)
+		}
+		
+		}
+}else{
+		instance_destroy(obj_npc2_talk1)
+		instance_destroy(obj_npc2_talk2)
+		instance_destroy(obj_npc2_talk3)
+}

@@ -18,3 +18,9 @@ global.horse = false
 global.born = false
 
 global.chicken = true
+
+talked1 = false
+
+talked2 = false
+
+talked3 = false

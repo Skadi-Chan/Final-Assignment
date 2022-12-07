@@ -21,10 +21,10 @@ if(position_meeting(mouse_x, mouse_y, obj_tookey1 )){
 	}
 }
 
-if(position_meeting(mouse_x, mouse_y, obj_tookey2 )){
+if(position_meeting(mouse_x, mouse_y, obj_game )){
 	
 	if(mouse_check_button(mb_left)){
-	with (instance_position(mouse_x,mouse_y,obj_tookey2)){
+	with (instance_position(mouse_x,mouse_y,obj_game)){
 		instance_destroy();
 	}
 	points += 1
@@ -35,6 +35,16 @@ if(position_meeting(mouse_x, mouse_y, obj_film )){
 	
 	if(mouse_check_button(mb_left)){
 	with (instance_position(mouse_x,mouse_y,obj_film)){
+		instance_destroy();
+	}
+	points += 1
+	}
+}
+
+if(position_meeting(mouse_x, mouse_y, obj_basketball )){
+	
+	if(mouse_check_button(mb_left)){
+	with (instance_position(mouse_x,mouse_y,obj_basketball)){
 		instance_destroy();
 	}
 	points += 1

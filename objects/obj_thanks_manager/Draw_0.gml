@@ -1,10 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-walkingspeed = 3
-
-collisionSpeed = walkingspeed 
-
-img_speed_divider = 8
-
-key = true
+draw_text(room_width/2,room_height/2,"Thank you For Playing")

@@ -8,4 +8,4 @@ draw_set_halign(fa_left);
 draw_set_valign(fa_top);
 
 //name the button
-draw_text(x,y,"You must be the horse for me I guess. Time to\n go back to reality. \n(Hit Space to end the game.)");
+draw_text(x,y,"You finally made to here David. Must be \nwondering why we look similar right? Well \nthat's because I'm you but the future you.");
