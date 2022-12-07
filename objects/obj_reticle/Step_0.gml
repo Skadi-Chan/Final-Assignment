@@ -41,6 +41,16 @@ if(position_meeting(mouse_x, mouse_y, obj_film )){
 	}
 }
 
-if points =20{
+if(position_meeting(mouse_x, mouse_y, obj_game )){
+	
+	if(mouse_check_button(mb_left)){
+	with (instance_position(mouse_x,mouse_y,obj_game)){
+		instance_destroy();
+	}
+	points += 1
+	}
+}
+
+if points = 8{
 	room_goto(mini_game1_story_end)
 }

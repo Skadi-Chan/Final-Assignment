@@ -8,4 +8,4 @@ draw_set_halign(fa_left);
 draw_set_valign(fa_top);
 
 //name the button
-draw_text(x,y,"You must be Zhenzhu I guess. Time to go back \nto Dingzhen. \n(Hit Space to take Zhenzhu with you.)");
+draw_text(x,y,"You are Zhenzhu! Come with me. \n(Hit Space to take Zhenzhu with you.)");
