@@ -15,7 +15,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "snd_key.mp3",
-  "duration": 0.496327,
+  "duration": 0.72,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

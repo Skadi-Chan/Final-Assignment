@@ -1,10 +1,10 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "snd_door",
+  "name": "snd_ship",
   "conversionMode": 0,
   "compression": 0,
-  "volume": 0.48,
+  "volume": 0.19,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -14,8 +14,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snd_door.mp3",
-  "duration": 0.841094,
+  "soundFile": "snd_ship.wav",
+  "duration": 0.9,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
