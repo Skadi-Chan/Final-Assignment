@@ -57,15 +57,18 @@ if( x < 0){
 //the collision in code 
 if place_meeting(x,y,obj_book){
 	y = room_height;
+	audio_play_sound(snd_ship,0,0)
 	rocket_life -=1
 }
 
 if place_meeting(x,y,obj_tombstone){
 	y = room_height;
+	audio_play_sound(snd_ship,0,0)
 	rocket_life -=1
 }
 
 if rocket_life =0 {
 	room_goto(mini_game2_story_end)
+	
 }
 
