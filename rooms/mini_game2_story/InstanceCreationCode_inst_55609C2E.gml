@@ -1,1 +1,1 @@
-targetroom = mini_game2_Screen
+targetroom = Maze2_Screen_no_mini

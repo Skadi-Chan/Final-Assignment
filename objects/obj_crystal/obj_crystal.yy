@@ -6,7 +6,7 @@
     "name": "spr_crystal",
     "path": "sprites/spr_crystal/spr_crystal.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,

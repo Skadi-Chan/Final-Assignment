@@ -1,0 +1,11 @@
+/// @description Insert description here
+// You can write your code in this editor
+
+draw_self();
+
+draw_set_font(font_story);
+draw_set_halign(fa_left);
+draw_set_valign(fa_top);
+
+//name the button
+draw_text(x,y,"All the troubles or struggles are just like those \ncrappy things in the space. You never know \nwhen or where or how they would end up \ndestroying you.");
