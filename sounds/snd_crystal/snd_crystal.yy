@@ -14,8 +14,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snd_crystal",
-  "duration": 0.0,
+  "soundFile": "snd_crystal.wav",
+  "duration": 0.996712,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
