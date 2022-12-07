@@ -55,6 +55,7 @@
     {"id":{"name":"spr_relx5","path":"sprites/spr_relx5/spr_relx5.yy",},"order":3,},
     {"id":{"name":"spr_npc4","path":"sprites/spr_npc4/spr_npc4.yy",},"order":1,},
     {"id":{"name":"spr_npc8","path":"sprites/spr_npc8/spr_npc8.yy",},"order":5,},
+    {"id":{"name":"snd_box","path":"sounds/snd_box/snd_box.yy",},"order":9,},
     {"id":{"name":"spr_side_wall","path":"sprites/spr_side_wall/spr_side_wall.yy",},"order":8,},
     {"id":{"name":"obj_dingzhen","path":"objects/obj_dingzhen/obj_dingzhen.yy",},"order":0,},
     {"id":{"name":"spr_zhenzhu","path":"sprites/spr_zhenzhu/spr_zhenzhu.yy",},"order":21,},
