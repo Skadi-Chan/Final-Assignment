@@ -195,9 +195,9 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"Maze_Screen","path":"rooms/Maze_Screen/Maze_Screen.yy",},},
     {"roomId":{"name":"mini_game2_Screen","path":"rooms/mini_game2_Screen/mini_game2_Screen.yy",},},
     {"roomId":{"name":"Starting_Screen","path":"rooms/Starting_Screen/Starting_Screen.yy",},},
-    {"roomId":{"name":"Maze_Screen","path":"rooms/Maze_Screen/Maze_Screen.yy",},},
     {"roomId":{"name":"Maze2_Screen_no_mini","path":"rooms/Maze2_Screen_no_mini/Maze2_Screen_no_mini.yy",},},
     {"roomId":{"name":"Game_Screen","path":"rooms/Game_Screen/Game_Screen.yy",},},
     {"roomId":{"name":"mini_game2_story","path":"rooms/mini_game2_story/mini_game2_story.yy",},},
