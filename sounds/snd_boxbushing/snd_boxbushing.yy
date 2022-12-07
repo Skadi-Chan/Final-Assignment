@@ -4,7 +4,7 @@
   "name": "snd_boxbushing",
   "conversionMode": 0,
   "compression": 0,
-  "volume": 0.31,
+  "volume": 1.0,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -15,7 +15,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "snd_boxbushing.mp3",
-  "duration": 1.959184,
+  "duration": 0.522449,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

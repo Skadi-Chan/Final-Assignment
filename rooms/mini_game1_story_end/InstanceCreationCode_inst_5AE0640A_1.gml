@@ -1,0 +1,1 @@
+targetroom = Maze_Screen_no_mini

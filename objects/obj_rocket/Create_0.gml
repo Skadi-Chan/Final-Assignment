@@ -5,3 +5,7 @@
 wasd_speed = 10
 
 img_speed_divider = 8
+
+rocket_life = 300
+
+alarm[0] = 10* room_speed
