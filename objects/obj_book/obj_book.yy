@@ -6,7 +6,7 @@
     "name": "spr_book",
     "path": "sprites/spr_book/spr_book.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,

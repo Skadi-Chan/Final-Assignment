@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_startingNPC2",
   "spriteId": {
-    "name": "spr_npc2",
-    "path": "sprites/spr_npc2/spr_npc2.yy",
+    "name": "spr_npc7",
+    "path": "sprites/spr_npc7/spr_npc7.yy",
   },
   "solid": true,
   "visible": true,
@@ -30,7 +30,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Old Stuff",
-    "path": "folders/Objects/Old Stuff.yy",
+    "name": "NPCs",
+    "path": "folders/Objects/NPCs.yy",
   },
 }
