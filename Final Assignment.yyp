@@ -87,6 +87,7 @@
     {"id":{"name":"spr_text2","path":"sprites/spr_text2/spr_text2.yy",},"order":23,},
     {"id":{"name":"obj_endingbush","path":"objects/obj_endingbush/obj_endingbush.yy",},"order":8,},
     {"id":{"name":"spr_nothing","path":"sprites/spr_nothing/spr_nothing.yy",},"order":2,},
+    {"id":{"name":"snd_crystal","path":"sounds/snd_crystal/snd_crystal.yy",},"order":11,},
     {"id":{"name":"obj_text2","path":"objects/obj_text2/obj_text2.yy",},"order":19,},
     {"id":{"name":"Maze_Screen","path":"rooms/Maze_Screen/Maze_Screen.yy",},"order":2,},
     {"id":{"name":"mini_game1_story","path":"rooms/mini_game1_story/mini_game1_story.yy",},"order":9,},
